@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        text-align: center;
+    }
+    #main_container{
+        display: flex;
+        justify-content: center;
+    }
+    .change_color{
+        border-radius: 50%;
+        border: 1px solid ;
+        margin: 5px;
+    }
+</style>
+<body>
+    <h1>Color Scheme Switcher</h1>
+    <div id="main_container">
+        <img src="https://www.solidbackgrounds.com/images/1920x1080/1920x1080-gray-solid-color-background.jpg" alt="" height="100px" width="100px" class="change_color" id="grey_color" onclick="greyColor()">
+        <img src="https://wallpaperaccess.com/full/1754609.jpg" alt="" height="100px" width="100px" class="change_color" id="white_color" onclick="whiteColor()">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/5120x2880-dark-blue-solid-color-background.jpg/2560px-5120x2880-dark-blue-solid-color-background.jpg" alt="" height="100px" width="100px" class="change_color" id="blue_color" onclick="blueColor()">
+        <img src="https://wallpapercave.com/wp/BGGdOwY.jpg" alt="" height="100px" width="100px" class="change_color" id="yellowColor" onclick="yellowColor()">
+    </div>
+</body>
+<script>
+    function greyColor(){
+    //  supportImg.src=greyColor;
+    document.body.style.backgroundColor = "grey";
+    }
+    function whiteColor(){
+    //  supportImg.src=greyColor;
+    document.body.style.backgroundColor = "white";
+    }
+    function yellowColor(){
+    //  supportImg.src=greyColor;
+    document.body.style.backgroundColor = "yellow";
+    }
+    function blueColor(){
+    //  supportImg.src=greyColor;
+    document.body.style.backgroundColor = "blue";
+    }
+</script>
+</html>
