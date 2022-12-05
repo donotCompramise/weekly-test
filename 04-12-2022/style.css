@@ -1,0 +1,17 @@
+body{
+    gap: 40px;
+    text-align: center;
+}
+#Counter{
+    border: none;
+    outline: none;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bolder;
+}
+#main_container{
+margin: 20px;
+}
+#Decrease,#Reset,#Increase{
+    font-size: 16px;
+}
