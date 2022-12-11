@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <style>
+      *{
+        margin: 0px;
+        box-sizing: border-box;
+        
+        
+      }
+    table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+/* #stored_data{
+
+} */
+    </style>
+   
+</head>
+<body>
+   <h1>CREATE YOUR ACCOUNT</h1>
+    <label for="name_field">Name  
+      <br><input type="text"  id="name_field" placeholder="Enetr your name">
+      <p class="validate_details"></p>
+    </label><br>
+
+    <label for="emial_field">Email
+      <br><input type="email" id="email_field" placeholder="Enter Your email id">
+      <p class="validate_email_details"></p>
+    </label><br>
+
+    <label for="password_field">Password
+      <br><input type="password"  id="password_field" placeholder="Enetr a password">
+      <p class="validate_password_details"></p>
+    </label><br>
+
+    <label for="confirm_password_field">Confirm password
+      <br><input type="password"  id="confirm_password_field" placeholder="confirm your password">
+      <p class="validate_confirm_password_details"></p>
+    </label><br>
+   <button onclick="validate_Function()">Create</button>
+<div id="stored_data">
+    <!--<table>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Password</th>
+      <th>confirm Password</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table> -->
+</div>
+</body>
+<script src="./script.js"></script>
+</html>
