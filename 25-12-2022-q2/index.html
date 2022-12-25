@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>pet-website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">Kitter</div>
+            <li><a href="#home">Home</a></li>
+            <li> <a href="#about">Shop</a></li>
+            <li><a href="#services">Collection</a></li>
+            <li><a href="#contact">Blogs</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="navright">
+           <img src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-18.png" alt="" height="20px" width="20px">
+           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAAB9CAMAAAC4XpwXAAAAZlBMVEX///8AAAD5+fkMDAweHh78/Pzx8fHn5+cXFxeKiort7e3q6uooKCh8fHxJSUni4uI9PT0wMDDFxcW/v7+QkJC0tLTU1NSioqJCQkLOzs5kZGSXl5d2dnbc3Nytra1UVFRsbGxcXFxax4kQAAAEkklEQVRoge1b2ZaiMBAVlH1fBEEQ/f+fnLYq0I4KpELFPnOm76MtXJPc2tO73S/+NZimnfR9YJofZ7bysg0NgcG7BJ+jNo+D8YzDOfkIt1PuX7gBt0Y7t10e3nPf0fZ6yYvsm2sfpvEwxJn7wF/qlGA00YTn3BEf2tXlOn2eOosv2ABnXPjh/KLxbyEWesgrYWLu5e32NjdBX2shF3KL/LlvFEIBZ37yAO3ssLSxgVj+hZvcwm0PV0TlIT235bfw1tPq92qkt1nJ8aWxhDXjNwdO8gT0lEnZcsQu/JZwmlYM6uSLehXJkHr4tsfGHsspbgQc/Z4r4iZEK7JTzsWDEceEB45w8jzhztxTg4fp8oWbBlZCegR2q2Nh9+iniErhIDcHBc8N7ByqD+6RNSM6D0h2jgzsiYrfvnDF+VxFQUoPvUOtsgzwtjcudmq24t8tPrW2s5cqArJBqgzeTp09ZGA/q+y8zbXzP6s6MJ5I5SEOi+t/1Nv4IN/ZAuY9Oq6iAqNMRXuILcqoRNieLcJidhGSHin5sgvMrHLKEyFfZoVbT1E9Z1YpTlFedyZrRr0bfrKaQN1JF4a9q+IdF4BVpGQ3Duoul7F3hRV0KuXw+CtoQk8APDxBJFLAfuB6MYfkBjEsrMHGrlG8kteXSM7eMXTwvdlSUeOjOnX0CyvRGJ9vBOein1jyk4/9ky9jep9i9mLhOlqVd/ipeL9RP1uzVcTj3zR1ib8c+NQh358ujSNSVr8vrlOPPtU5IDg+TAfCeGiv1yF++MjweJuUz/A9Yx4xMf9SgDPHH2s78b9xub1QZ+VnJmIAu/DaVDiAbOjqhKFoIv4CJwH4nx+F/uIX/x/sPj/eUVTBR03OKc7t0wz+5B01T78BZlOmM9P/8FpovQBhJVH6nnn8AW2uK8RaxWtweUVaa+F/TCwwonaRV3pRd3Of/sB/ASF/pGjL4u/Ezm7q7vE+Rska8pLvPc+6/P3SzL6cMksjZMw06knlbbF0qmYVTVeAOib92+30xnWbDuppk1iG8NV44le53Mk8j/wMBdW4FkKibo9pf7tVfJ7SOhpx/PE22xfkJ2qibov7P3LtjmXyq8ISxIltmE+IXoBa560Rq1c9eyFe1Ua3uKFDGZ0/oEBy9XlmgpFBqXPnbCXf7fpM1e6tE4PHEO0OemmLirtuIhfTIcNVe2z7laFa5ehN2PcDQ7P1BvS0iIPGxhGkYaRlDBSng6bKM1g5kp0GBimmZiukB5m8s/Y3+bhnOETTjZTMZBYQq6SHRPZmJ/fufbJbCYKnjf+W4RFeiLbOeS/UJ/hbCMzUofMyWnmH1ymHxVmg35bRHd7NY67GIcuUGeXCxp+YC0FPdj9L9VRuHrAkmeu4mVo+sAzZ44Q7SlICIaGVc2Agz5abHKeE60ETkhH+mVYvl1xHvD5+ROBKuTAQHf+/XuC9mVXZgVdiJxcedNXf6GL3ZE7UkVMHHVJX1So9BieSyzUXKu6zmdywcpnSCArX/YEfrkxthNm3LqwJSi/72mWQRCv76sWAIt3rwsFb7+FY7HqfsMr9i4/hDyxwNGVUD+AMAAAAAElFTkSuQmCC" alt="" height="20px" width="20pps">
+           <img src="data:image/png;base64,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" alt=""  height="20px" width="20px">
+        </div>
+    </nav>
+    <div id="box_container">
+        <h1><span style="color: orange;">Top</span> Categories</h1>
+    </div>
+    <div id="section">
+        <div id="section-2">
+            <div class="images"><img src="https://mlijc6aheyyw.i.optimole.com/bAt4sBQ.wuCW~60687/w:360/h:360/q:mauto/rt:fill/g:ce/f:avif/https://lynnatpetsandmore.com/wp-content/uploads/2020/12/Kitten-Food-Jungle-Chicken-600x600-removebg-preview-1.png
+                " alt="" class="food_toy"></div>
+            <p class="food_name">Cat Food</p>
+        </div>
+
+        <div id="section-2">
+            <div class="images" style="background-color: rgba(142, 105, 36, 0.467)"><img src="https://caninecareindia.com/wp-content/uploads/2022/02/Stuffed-Plush-Dog-Toys-removebg-preview.png" alt="" class="food_toy"></div>
+            <p class="food_name">Cat Toy</p>
+        </div>
+
+
+
+
+        <div id="section-2">
+            <div class="images" style="background-color: rgba(173, 212, 94, 0.462)"><img src="https://5.imimg.com/data5/ANDROID/Default/2022/2/ZU/SF/JZ/20589532/pf-js-three-quarter-removebg-png-500x500.png
+                " alt="" class="food_toy"></div>
+            <p class="food_name">Dog Food</p>
+        </div>
+
+ 
+
+
+        <div id="section-2">
+            <div class="images" style="background-color:rgba(10, 92, 67, 0.358)"><img src="https://patmypets.b-cdn.net/wp-content/uploads/2021/10/best-durable-dog-toys-cover-removebg-preview.png
+                " alt="" class="food_toy"></div>
+            <p class="food_name">Dog Food</p>
+        </div>
+
+        <div id="section-2"  >
+            <div class="images" style="background-color: rgb(229, 223, 223);"><img src="https://patmypets.b-cdn.net/wp-content/uploads/2021/10/best-durable-dog-toys-cover-removebg-preview.png
+                " alt="" class="food_toy"></div>
+            <p class="food_name">Dog Supplements</p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div id="section">
+    <div id="section-2">
+        <div class="images">
+            <img src="https://mlijc6aheyyw.i.optimole.com/bAt4sBQ.wuCW~60687/w:360/h:360/q:mauto/rt:fill/g:ce/f:avif/https://lynnatpetsandmore.com/wp-content/uploads/2020/12/Kitten-Food-Jungle-Chicken-600x600-removebg-preview-1.png
+            " alt="" class="food_toy">
+        </div>
+        
+        <p style="mar">cat food</p>
+    </div> -->
+        <!-- <div class="images"><img src="https://caninecareindia.com/wp-content/uploads/2022/02/Stuffed-Plush-Dog-Toys-removebg-preview.png
+
+            " alt="" class="food_toy"></div>
+        <div class="images"><img src="https://5.imimg.com/data5/ANDROID/Default/2022/2/ZU/SF/JZ/20589532/pf-js-three-quarter-removebg-png-500x500.png
+            " alt="" class="food_toy"></div>
+        <div class="images"><img src="https://patmypets.b-cdn.net/wp-content/uploads/2021/10/best-durable-dog-toys-cover-removebg-preview.png
+            " alt="" class="food_toy"></div>
+        <div class="images"><img src=c></div> -->
+
+<!-- </div> -->
+</body>

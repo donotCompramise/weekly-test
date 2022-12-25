@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.navbar{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    box-shadow: 0px 0px 12px 4px silver;
+
+}
+.nav-list{
+    width:50%;
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.nav-list li a{
+text-decoration: none;
+color: black;
+
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    background-color: white;
+ 
+}
+.navright{
+    width:50%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+    text-align: right;
+    padding: 0 23px;
+
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+ .background{
+    background-size: cover;
+    background-blend-mode: darken;
+
+ }
+ #box_container{
+
+    color: black;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+ }
+ 
+ #section{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50%;
+    
+    margin: 0px 20px ;
+    gap: 20px;
+  
+ }
+ .food_toy{
+    height: 70%;
+    width: 80%;
+   
+ }
+ .images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    border:none;
+    border-radius: 4px;
+    height: 80%;
+    width: 100%;
+  
+ }
+ #section-2{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    border-radius: 8px;
+ }
+ .food_name{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    font-size: 20px;
+    font-family: sans-serif;
+ }
